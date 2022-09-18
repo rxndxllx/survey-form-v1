@@ -66,6 +66,10 @@ class SurveyModel extends Model {
 			return "Error! Captcha input doesn't matched."; 
 		}
 	}
+
+	jenkins() {
+		console.log("for Jenkins test");
+	}
 }
 
 module.exports = SurveyModel;
