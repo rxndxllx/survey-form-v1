@@ -67,10 +67,6 @@ class SurveyModel extends Model {
 		}
 	}
 
-	jenkins() {
-		console.log("for Jenkins test");
-	}
-
 	print() {
 		console.log("Hello Jenkins 2!");
 	}
